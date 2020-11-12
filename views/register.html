@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div>
+        <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+    </div>
+
+    <div>
+        <form action="/" method="POST">
+            <label for="NyA" placeholder="Nombre y Apellido">Nombre y Apellido:</label><br>
+            <input type="text" id="NyA" name="NyA"><br>
+
+            <label for="usuario">Nombre de usuario:</label><br>
+            <input type="text" id="usuario" name="usuario"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="date" id="date">Fecha de nacimiento:</label><br>
+            <input type="date" id="date" name="date" value="" min="2002-01-01" max="2102-01-01" placeholder="DD-MM-AAAA"><br>
+
+            <label for="perfil">Perfil de usuario:</label><br>
+            <input type="radio" name="perfil" value="C">Comprador
+            <input type="radio" name="perfil" value="V">Vendedor<br>
+
+            <label for="categorias">Categorías de interés:</label><br>
+            <input type="checkbox" name="categorias" value="E">Electro
+            <input type="checkbox" name="categorias" value="M">Moda
+            <input type="checkbox" name="categorias" value="H">Hogar
+            <input type="checkbox" name="categorias" value="J">Juguetería
+            <input type="checkbox" name="categorias" value="VS">Vida sana<br>
+
+            <input type="file" id="file" name="file" accept="image/png, image/jpeg"><br>
+
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" placeholder="Elegí tu contraseña"><br>
+
+            <label for="repeat-password">Confirmar contraseña:</label><br>
+            <input type="password" id="repeat-password" name="repeat-password" placeholder="Confirma tu contraseña"><br>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </div>
+</body>
+</html>

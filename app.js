@@ -9,12 +9,12 @@ app.get ('/ayuda', function (req, res) {
 	res.sendFile(__dirname + '/views/ayuda.html')
 })
 
-app.get ('/creaTuCuenta', function (req, res) {
-	res.sendFile(__dirname + '/views/creaTuCuenta.html')
+app.get ('/register', function (req, res) {
+	res.sendFile(__dirname + '/views/register.html')
 })
 
-app.get ('/ingresa', function (req, res) {
-	res.sendFile(__dirname + '/views/ingresa.html')
+app.get ('/login', function (req, res) {
+	res.sendFile(__dirname + '/views/login.html')
 })
 
 app.get ('/misCompras', function (req, res) {
