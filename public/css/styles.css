@@ -6,9 +6,7 @@ label {
     color: #03264C;
 }
 
-input:focus {
-    border-color: solid #EAC926;
-    outline: none;
+input {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: #666;
