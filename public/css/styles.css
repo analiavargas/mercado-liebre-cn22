@@ -1,13 +1,100 @@
-
-label {
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+
+/*MAIN Index*/
+.navbar {
+    width: 100%;
+    background-color: #EAC926;
+}
+.logoML {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.buscador {
+    width: 50%;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    align-content: center;
+}
+
+h4 {
+    font-weight: lighter;
+    font-size: smaller;
+    color: #03264C;
+}
+
+.menu {
+    text-align: center;
+}
+
+.fas.fa-bars {
+    height: 40px;
+    width: 40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+i.fas.fa-bars:hover {
+    background-color: #0022AA;
+    cursor: pointer;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    align-content: center;
+}
+*/
+article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 90%;
+    align-content: center;
+}
+
+footer {
+    padding: 20px 5%;
+}
+
+article.pago.envio.seguridad {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+/*Login y Register*/
+label {
     font-size: 12px;
     font-weight: bold;
     color: #03264C;
 }
 
 input {
-    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: #666;
 }
